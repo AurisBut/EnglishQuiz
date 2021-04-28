@@ -1,6 +1,13 @@
 import random
-import pyttsx3
-engine = pyttsx3.init()
+# import pyttsx3
+# engine = pyttsx3.init()
+
+
+with open('lithuanian-words-list.txt', 'r', encoding='utf-8') as file:
+    allText = file.read()
+    words = list(map(str, allText.split('\n')))
+    rword = random.choice(words)
+    print(rword)
 
 answer = input("Play game? ('y' to continue) ").lower()
 print(" ")
