@@ -24,7 +24,7 @@ while answer == "y":
             print(rword)
 
             print(" ")
-            if userInputAnswer == (rword):
+            if userInputAnswer == rword:
                 print("CORRECT")
                 correct += 1
             else:
