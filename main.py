@@ -1,6 +1,6 @@
 import random
-# import pyttsx3
-# engine = pyttsx3.init()
+import pyttsx3
+engine = pyttsx3.init()
 
 
 with open('lithuanian-words-list.txt', 'r', encoding='utf-8') as file:
